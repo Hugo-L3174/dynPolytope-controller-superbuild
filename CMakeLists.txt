@@ -11,18 +11,18 @@ AddProject(politopix
 AddProject(DCM_VRPTask
   GITHUB_PRIVATE Hugo-L3174/DCM_VRPTask
   GIT_TAG origin/main
-  DEPENDS gram_savitzky_golay 
+  DEPENDS mc_rtc gram_savitzky_golay 
 )
 
 AddProject(mc_dynamic_polytopes
   GITHUB_PRIVATE Hugo-L3174/mc_dynamic_polytopes
   GIT_TAG origin/main
-  DEPENDS politopix 
+  DEPENDS mc_rtc politopix 
   APT_PACKAGES libqhull-dev
 )
 
 AddProject(polytopeController
   GITHUB_PRIVATE Hugo-L3174/polytopeController
   GIT_TAG origin/master
-  DEPENDS DCM_VRPTask mc_dynamic_polytopes 
+  DEPENDS mc_rtc DCM_VRPTask mc_dynamic_polytopes 
 )
