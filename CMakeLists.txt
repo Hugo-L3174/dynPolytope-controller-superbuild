@@ -1,5 +1,5 @@
 AddProject(gram_savitzky_golay
-  GITHUB arntanguy/gram_savitzky_golay
+  GITHUB jrl-umi3218/gram_savitzky_golay
   GIT_TAG origin/master
 )
 
