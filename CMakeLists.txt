@@ -18,11 +18,11 @@ AddProject(mc_dynamic_polytopes
   GITHUB_PRIVATE Hugo-L3174/mc_dynamic_polytopes
   GIT_TAG origin/main
   DEPENDS mc_rtc politopix 
-  APT_PACKAGES libqhull-dev
+  APT_DEPENDENCIES libqhull-dev
 )
 
 AddProject(polytopeController
   GITHUB_PRIVATE Hugo-L3174/polytopeController
   GIT_TAG origin/master
-  DEPENDS mc_rtc DCM_VRPTask mc_dynamic_polytopes 
+  DEPENDS mc_rtc DCM_VRPTask mc_dynamic_polytopes mc_state_observation
 )
